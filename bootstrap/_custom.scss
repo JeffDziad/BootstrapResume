@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page-content {
+  position: relative;
+  height: 500px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.content-pri {
+  -webkit-box-shadow: 0px 0px 28px 20px #f2545b;
+  box-shadow: 0px 0px 28px 20px #f2545b;
+}
+
+.content-sec {
+  -webkit-box-shadow: 0px 0px 28px 20px #3C6997;
+  box-shadow: 0px 0px 28px 20px #3C6997;
+}
+
+.scroll-guide {
+  position: absolute;
+  top: -50px;
+}
+
+.content-label {
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+}
+
+.bdr {
+  border: #094074 solid 4px;
+}
+
+.blr {
+  -webkit-filter: blur(1px); /* Safari 6.0 - 9.0 */
+  filter: blur(1px);
+}
+
+#hamburger-collapse {
+  margin-left: 50px;
+}
+
+$dark: #094074;
+$primary: #f2545b;
+$secondary: #3c6997;
+
+@import "bootstrap-4.6.0/scss/bootstrap";
